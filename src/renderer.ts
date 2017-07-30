@@ -58,7 +58,7 @@ ipcRenderer.on('about-window:info', (_: any, info: AboutWindowInfo) => {
         }
     }
 });
-
+/*
 const versions = document.querySelector('.versions');
 const vs = process.versions;
 for (const name of ['electron', 'chrome', 'node', 'v8']) {
@@ -70,4 +70,4 @@ for (const name of ['electron', 'chrome', 'node', 'v8']) {
     version_td.innerText = ' : ' + vs[name];
     tr.appendChild(version_td);
     versions.appendChild(tr);
-}
+}*/
